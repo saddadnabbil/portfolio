@@ -8,13 +8,12 @@ body {
 }
 
 body h2 {
-  
   font-weight: 700;
   font-size: 30px;
 }
 
-.container {
-  height: 100%;
+#hero {
+  height: 100vh;
 }
 
 .wrapper .dynamic-txts {
@@ -80,6 +79,10 @@ body h2 {
 }
 
 /* Projects Area */
+div#project {
+  margin-bottom: 120px;
+}
+
 .project .container .row h2 {
   font-weight: 700;
   font-size: 30px;
@@ -104,6 +107,7 @@ body h2 {
   font-size: 100px;
   line-height: normal;
 }
+
 .owl-carousel .owl-nav .owl-prev:before {
   content: "\e833";
   left: -45px;
@@ -144,6 +148,25 @@ body h2 {
     display: block;
     margin: 10px 0 0 0;
   }
+}
+
+@media (max-width: 992px) {
+  .owl-theme .owl-nav {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mapouter {
+    height: 75%;
+  }
+}
+
+/* Location Area */
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:30rem;
 }
 
 @media (max-width: 992px) {
