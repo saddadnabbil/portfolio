@@ -5,7 +5,7 @@
       <div class="container" id="hero">
           <div class="row text-center h-100 d-flex align-items-center justify-content-center" >
             <div class="col">
-                  <h2>Hi, I'm Saddad Nabbil</h2>
+                  <h2>Hi, I'm Nabbil</h2>
                   <div class="wrapper">
                       <ul class="dynamic-txts">
                           <li><span>Web Developer</span></li>
