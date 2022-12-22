@@ -27,23 +27,50 @@
     <div class="container pt-5" id="project">
       <div class="row text-center">
         <div class="col-lg-8 mx-auto">
-          <h2>Result of Something I Learned in 2021</h2>
+          <h2>Result of Something I Learned</h2>
         </div>
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="project-info">
-              <a href="https://lelebae.inibae.com/">
-                <img src="assets/images/project/1.png" class="img-fluid" alt="project image">
-                <a href="https://lelebae.inibae.com/" class="text-dark text-decoration-none"><p>lelebae</p></a>
+              <a href="https://stage.inibae.com/">
+                <img src="assets/images/project/inibae.png" class="img-fluid" alt="project image">
+                <a href="https://stage.inibae.com/" class="text-dark text-decoration-none"><p>inibaecom</p></a>
               </a>
             </div>
           </div>
 
           <div class="item">
             <div class="project-info">
-              <a href="https://webif.selfloveid.xyz/">
+              <a href="https://bnart1.inibae.com/">
+                <img src="assets/images/project/bnakas.png" class="img-fluid" alt="project image">
+                <a href="https://bnart1.inibae.com/" class="text-dark text-decoration-none"><p>bna kas</p></a>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="project-info">
+              <a href="https://saddadnabbil.my.id/webif/">
                 <img src="assets/images/project/2.png" class="img-fluid" alt="project image">
-                <a href="https://webif.selfloveid.xyz/" class="text-dark text-decoration-none"><p>webif<p></a>
+                <a href="https://saddadnabbil.my.id/webif/" class="text-dark text-decoration-none"><p>webif<p></a>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="project-info">
+              <a href="https://dynatech-int.com">
+                <img src="assets/images/project/dti.png" class="img-fluid" alt="project image">
+                <a href="https://dynatech-int.com" class="text-dark text-decoration-none"><p>dynatech international</p></a>
+              </a>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="project-info">
+              <a href="https://ascentia.co.id/">
+                <img src="assets/images/project/ascentia.png" class="img-fluid" alt="project image">
+                <a href="https://ascentia.co.id/" class="text-dark text-decoration-none"><p>ascentia</p></a>
               </a>
             </div>
           </div>
@@ -53,6 +80,17 @@
               <a href="https://sdn1nameng.inibae.com/">
                 <img src="assets/images/project/3.png" class="img-fluid" alt="project image">
                 <a href="https://sdn1nameng.inibae.com/" class="text-dark text-decoration-none"><p>sdn 1 nameng</p></a>
+              </a>
+            </div>
+          </div>
+
+          
+
+          <div class="item">
+            <div class="project-info">
+              <a href="https://lelebae.inibae.com/">
+                <img src="assets/images/project/1.png" class="img-fluid" alt="project image">
+                <a href="https://lelebae.inibae.com/" class="text-dark text-decoration-none"><p>lelebae</p></a>
               </a>
             </div>
           </div>
