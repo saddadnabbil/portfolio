@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Martel:wght@300;400&display=swap");
+
+/* Style */
+body {
+  height: 100vh;
+  font-family: "Lexend";
+  color: #3e454f;
+}
+
+body h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#hero {
+  height: 100vh;
+}
+
+.wrapper .dynamic-txts {
+  margin-right: 2em;
+  font-weight: 300;
+  font-size: 1.1rem;
+  height: 26px;
+  /* /* line-height: 90px; */
+  background: #fff;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(3) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -80px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  /* border-left: 1px solid #3e454f; */
+  animation: typing 2s steps(20) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+.custom-button {
+  margin-top: 1em;
+  /* padding: 5px; */
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  border-radius: 8px;
+}
+
+.custom-button:hover {
+  color: lightcoral;
+  margin-top: 1em;
+  /* padding: 5px; */
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  border-radius: 8px;
+}
+
+/* Projects Area */
+div#project {
+  margin-bottom: 120px;
+}
+
+.project .container .row h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.project .container .row a {
+  color: #3e454f;
+}
+
+.owl-carousel .owl-nav span {
+  display: none;
+}
+.owl-carousel .owl-nav .owl-prev:before,
+.owl-carousel .owl-nav .owl-next:before {
+  background: none;
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-family: "unicons";
+  font-size: 100px;
+  line-height: normal;
+}
+
+.owl-carousel .owl-nav .owl-prev:before {
+  content: "\e833";
+  left: -45px;
+}
+.owl-carousel .owl-nav .owl-next:before {
+  content: "\e836";
+  right: -45px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  background: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  color: #ffc200;
+}
+.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #5b5b5b;
+}
+
+@media (max-width: 580px) {
+  .owl-theme .owl-nav {
+    display: none;
+  }
+
+  .timeline-info small {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .owl-theme .owl-nav {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mapouter {
+    height: 75%;
+  }
+}
+
+/* Location Area */
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:30rem;
+}
+
+@media (max-width: 992px) {
+  .mapouter {
+    height: 75%;
+  }
+}
+
+/* Footer Area */
+.footer {
+  width: 100%;
+  color: #3e454f;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer a {
+  color: #3e454f;
+  font-size:30px
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer a  i {
+  font-size:30px
+}
