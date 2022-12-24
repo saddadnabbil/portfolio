@@ -16,7 +16,6 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
     
     <link rel="shortcut icon" href="assets/images/profile.jpg" type="image/x-icon">
     <title>Saddad Nabbil</title>
@@ -32,14 +31,13 @@
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/Headroom.js"></script>
+    {{-- <script src="assets/js/Headroom.js"></script> --}}
     <script src="assets/js/jQuery.headroom.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
+    {{-- <script src="assets/js/smoothscroll.js"></script> --}}
     <script src="assets/js/custom.js"></script>
 
     <!-- Maps API -->
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
