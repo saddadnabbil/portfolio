@@ -103,14 +103,12 @@
     <div class="container" id="find">
       <div class="row justify-content-center">
         <div class="d-flex flex-column gmap_canvas mb-5">
-        <h2 class="text-center mb-5">Find Me  
-        </h2>
-        <iframe width="1367" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Inibae.com%20malangnengah&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-        </iframe>
-        <br>
+          <h2 class="text-center mb-5">Find Me  
+          </h2>
+          <div class="col"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Inibae.com%20malangnengah&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe></div>
+          <br>
         </div>
-      </div>
-      </div>
       </div>
     </div>
     <!-- End Location Area -->
