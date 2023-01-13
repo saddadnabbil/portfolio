@@ -34,7 +34,7 @@
             <div class="project-info">
               <a href="https://stage.inibae.com/">
                 <img src="assets/images/project/inibae.png" class="img-fluid" alt="project image">
-                <a href="https://stage.inibae.com/" class="text-dark text-decoration-none"><p>inibaecom</p></a>
+                <a href="https://inibae.com/" class="text-dark text-decoration-none"><p>inibaecom</p></a>
               </a>
             </div>
           </div>
